@@ -1,0 +1,20 @@
+html {
+  scroll-behavior: smooth;
+}
+
+.feature-card {
+  background-color: #2c003e;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+.feature-card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0px 10px 20px rgba(216, 180, 255, 0.3);
+}
+
+.hero-btn {
+  transition: all 0.3s ease;
+}
+.hero-btn:hover {
+  box-shadow: 0px 0px 15px rgba(216, 180, 255, 0.7);
+  transform: scale(1.05);
+}
