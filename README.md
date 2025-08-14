@@ -1,4 +1,4 @@
-# HTH (Hear The Heart) - Video Processing & Multi-Language Transcript System
+# HTH (Hack the Horin 2.0) - AI - Powered Subtitles and Localisation
 
 ## 📖 Project Overview
 
@@ -29,7 +29,7 @@ HTH/
 ### 🌍 Multi-Language Support
 - **Transcript Languages**: English, Tamil, Hindi, Malayalam, Telugu
 - **Dynamic Switching**: Real-time language switching for transcripts
-- **Video Languages**: Multi-language video versions (Hindi available, others coming soon)
+- **Video Languages**: Multi-language video versions 
 - **Localized Content**: Region-specific transcript and video content
 
 ### 🎭 Emotion Subtitles
