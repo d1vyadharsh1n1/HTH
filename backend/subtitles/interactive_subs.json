@@ -1,0 +1,1058 @@
+[
+    {
+        "start": 4400,
+        "end": 6320,
+        "text": "Now,",
+        "emotion": "anger",
+        "definition": "The present time.",
+        "example": "Now is the right time."
+    },
+    {
+        "start": 4400,
+        "end": 6320,
+        "text": "about",
+        "emotion": "anger",
+        "definition": "Moving around; astir.",
+        "example": "After my bout with Guillan-Barre Syndrome, it took me 6 months to be up and about again."
+    },
+    {
+        "start": 4400,
+        "end": 6320,
+        "text": "the",
+        "emotion": "anger",
+        "definition": "With a comparative or with more and a verb phrase, establishes a correlation with one or more other such comparatives.",
+        "example": "It looks weaker and weaker, the more I think about it."
+    },
+    {
+        "start": 4400,
+        "end": 6320,
+        "text": "girl.",
+        "emotion": "anger",
+        "definition": "One's daughter.",
+        "example": "Your girl turned up on our doorstep."
+    },
+    {
+        "start": 7360,
+        "end": 9600,
+        "text": "I",
+        "emotion": "anger",
+        "definition": "The name of the Latin-script letter I.",
+        "example": "the position of an i-dot (the dot of an i)"
+    },
+    {
+        "start": 7360,
+        "end": 9600,
+        "text": "just",
+        "emotion": "anger",
+        "definition": "Factually right, correct; factual.",
+        "example": "It is a just assessment of the facts."
+    },
+    {
+        "start": 7360,
+        "end": 9600,
+        "text": "want",
+        "emotion": "anger",
+        "definition": "To wish for or desire (something); to feel a need or desire for; to crave or demand.",
+        "example": "What do you want to eat?\u2003 I want you to leave.\u2003 I\u00a0never wanted to go back to live with my mother."
+    },
+    {
+        "start": 7360,
+        "end": 9600,
+        "text": "to",
+        "emotion": "anger",
+        "definition": "Toward a closed, touching or engaging position.",
+        "example": "Please push the door to."
+    },
+    {
+        "start": 7360,
+        "end": 9600,
+        "text": "send",
+        "emotion": "anger",
+        "definition": "To make something (such as an object or message) go from one place to another.",
+        "example": "Every day at two o'clock, he sends his secretary out to buy him a coffee."
+    },
+    {
+        "start": 7360,
+        "end": 9600,
+        "text": "her",
+        "emotion": "anger",
+        "definition": "A female person or animal.",
+        "example": "I think this bird is a him, but it may be a her."
+    },
+    {
+        "start": 7360,
+        "end": 9600,
+        "text": "home.",
+        "emotion": "anger",
+        "definition": "The locality where a thing is usually found, or was first found, or where it is naturally abundant; habitat; seat.",
+        "example": "the home of the pine"
+    },
+    {
+        "start": 10480,
+        "end": 13400,
+        "text": "Very",
+        "emotion": "joy",
+        "definition": "True, real, actual.",
+        "example": "He tried his very best."
+    },
+    {
+        "start": 10480,
+        "end": 13400,
+        "text": "good.",
+        "emotion": "joy",
+        "definition": "(when with and) Very, extremely. See good and.",
+        "example": "The soup is good and hot."
+    },
+    {
+        "start": 10480,
+        "end": 13400,
+        "text": "Bring",
+        "emotion": "joy",
+        "definition": "(ditransitive) To transport toward somebody/somewhere.",
+        "example": "Waiter, please bring me a single malt whiskey."
+    },
+    {
+        "start": 10480,
+        "end": 13400,
+        "text": "me",
+        "emotion": "joy",
+        "definition": "As the direct object of a verb.",
+        "example": "Can you hear me?"
+    },
+    {
+        "start": 10480,
+        "end": 13400,
+        "text": "a",
+        "emotion": "joy",
+        "definition": "The name of the Latin script letter A/a.",
+        "example": "No example available."
+    },
+    {
+        "start": 10480,
+        "end": 13400,
+        "text": "door",
+        "emotion": "joy",
+        "definition": "A portal of entry into a building, room, or vehicle, consisting of a rigid plane movable on a hinge. Doors are frequently made of wood or metal. May have a handle to help open and close, a latch to hold the door closed and a lock that ensures the door cannot be opened without the key.",
+        "example": "I knocked on the vice president's door"
+    },
+    {
+        "start": 13320,
+        "end": 16440,
+        "text": "shredder.",
+        "emotion": "anger",
+        "definition": "A machine that tears up objects into smaller pieces, especially a paper shredder or garbage shredder.",
+        "example": "No example available."
+    },
+    {
+        "start": 13320,
+        "end": 16440,
+        "text": "What,",
+        "emotion": "anger",
+        "definition": "(usually followed by \"with,\" but also sometimes \"would\" or \"might,\" especially in finance) In some manner or degree; in part; partly. See also what with",
+        "example": "The market will calculate these higher risks in their funding costs what might result in higher lending rates."
+    },
+    {
+        "start": 13320,
+        "end": 16440,
+        "text": "you",
+        "emotion": "anger",
+        "definition": "(object pronoun) The people spoken, or written to, as an object.",
+        "example": "Both of you should get ready now."
+    },
+    {
+        "start": 13320,
+        "end": 16440,
+        "text": "mean.",
+        "emotion": "anger",
+        "definition": "To have conviction in (something said or expressed); to be sincere in (what one says).",
+        "example": "Does she really mean what she said to him last night?"
+    },
+    {
+        "start": 13320,
+        "end": 16440,
+        "text": "You",
+        "emotion": "anger",
+        "definition": "(object pronoun) The people spoken, or written to, as an object.",
+        "example": "Both of you should get ready now."
+    },
+    {
+        "start": 13320,
+        "end": 16440,
+        "text": "mean",
+        "emotion": "anger",
+        "definition": "To have conviction in (something said or expressed); to be sincere in (what one says).",
+        "example": "Does she really mean what she said to him last night?"
+    },
+    {
+        "start": 13320,
+        "end": 16440,
+        "text": "I",
+        "emotion": "anger",
+        "definition": "The name of the Latin-script letter I.",
+        "example": "the position of an i-dot (the dot of an i)"
+    },
+    {
+        "start": 13320,
+        "end": 16440,
+        "text": "can't",
+        "emotion": "anger",
+        "definition": "Definition not found.",
+        "example": "Example not found."
+    },
+    {
+        "start": 16360,
+        "end": 19400,
+        "text": "see",
+        "emotion": "joy",
+        "definition": "To be the setting or time of.",
+        "example": "1999 saw the release of many great films."
+    },
+    {
+        "start": 16360,
+        "end": 19400,
+        "text": "her",
+        "emotion": "joy",
+        "definition": "A female person or animal.",
+        "example": "I think this bird is a him, but it may be a her."
+    },
+    {
+        "start": 16360,
+        "end": 19400,
+        "text": "again?",
+        "emotion": "joy",
+        "definition": "Used metalinguistically, with the repetition being in the discussion, or in the linguistic or pragmatic context of the discussion, rather than in the subject of discussion.",
+        "example": "Great, thanks again!"
+    },
+    {
+        "start": 16360,
+        "end": 19400,
+        "text": "That's",
+        "emotion": "joy",
+        "definition": "Definition not found.",
+        "example": "Example not found."
+    },
+    {
+        "start": 16360,
+        "end": 19400,
+        "text": "the",
+        "emotion": "joy",
+        "definition": "With a comparative or with more and a verb phrase, establishes a correlation with one or more other such comparatives.",
+        "example": "It looks weaker and weaker, the more I think about it."
+    },
+    {
+        "start": 16360,
+        "end": 19400,
+        "text": "way",
+        "emotion": "joy",
+        "definition": "A method or manner of doing something; a mannerism.",
+        "example": "You're going about it the wrong way.\u2003 He's known for his quirky ways.\u2003 I don't like the way she looks at me."
+    },
+    {
+        "start": 16360,
+        "end": 19400,
+        "text": "it",
+        "emotion": "joy",
+        "definition": "The person who chases and tries to catch the other players in the playground game of tag.",
+        "example": "In the next game, Adam and Tom will be it\u2026"
+    },
+    {
+        "start": 19320,
+        "end": 22440,
+        "text": "has",
+        "emotion": "joy",
+        "definition": "To possess, own.",
+        "example": "I have a house and a car."
+    },
+    {
+        "start": 19320,
+        "end": 22440,
+        "text": "to",
+        "emotion": "joy",
+        "definition": "Toward a closed, touching or engaging position.",
+        "example": "Please push the door to."
+    },
+    {
+        "start": 19320,
+        "end": 22440,
+        "text": "be.",
+        "emotion": "joy",
+        "definition": "Definition not found.",
+        "example": "Example not found."
+    },
+    {
+        "start": 19320,
+        "end": 22440,
+        "text": "I'll",
+        "emotion": "joy",
+        "definition": "Definition not found.",
+        "example": "Example not found."
+    },
+    {
+        "start": 19320,
+        "end": 22440,
+        "text": "give",
+        "emotion": "joy",
+        "definition": "The amount of bending that something undergoes when a force is applied to it; a tendency to yield under pressure; resilence.",
+        "example": "There is no give in his dogmatic religious beliefs."
+    },
+    {
+        "start": 22360,
+        "end": 23520,
+        "text": "you",
+        "emotion": "anger",
+        "definition": "(object pronoun) The people spoken, or written to, as an object.",
+        "example": "Both of you should get ready now."
+    },
+    {
+        "start": 22360,
+        "end": 23520,
+        "text": "five",
+        "emotion": "anger",
+        "definition": "The digit/figure 5.",
+        "example": "He wrote a five followed by four zeroes."
+    },
+    {
+        "start": 22360,
+        "end": 23520,
+        "text": "minutes.",
+        "emotion": "anger",
+        "definition": "A unit of time equal to sixty seconds (one-sixtieth of an hour).",
+        "example": "You have twenty minutes to complete the test."
+    },
+    {
+        "start": 35370,
+        "end": 36490,
+        "text": "Well,",
+        "emotion": "joy",
+        "definition": "In good health.",
+        "example": "I had been sick, but now I'm well."
+    },
+    {
+        "start": 35370,
+        "end": 36490,
+        "text": "so",
+        "emotion": "joy",
+        "definition": "True, accurate.",
+        "example": "That is so.\u2003 You are responsible for this, is that not so?"
+    },
+    {
+        "start": 35370,
+        "end": 36490,
+        "text": "long,",
+        "emotion": "joy",
+        "definition": "An entity with a long position in an asset.",
+        "example": "Every uptick made the longs cheer."
+    },
+    {
+        "start": 35370,
+        "end": 36490,
+        "text": "kid.",
+        "emotion": "joy",
+        "definition": "A young goat.",
+        "example": "He treated the oxen like they didn't exist, but he treated the goat kid like a puppy."
+    },
+    {
+        "start": 38650,
+        "end": 41210,
+        "text": "Yeah.",
+        "emotion": "joy",
+        "definition": "Expressing joy, celebration, glee, etc.",
+        "example": "Yeah! We did it!"
+    },
+    {
+        "start": 38650,
+        "end": 41210,
+        "text": "Oh,",
+        "emotion": "joy",
+        "definition": "Expression of surprise.",
+        "example": "Oh! I didn't see you there."
+    },
+    {
+        "start": 38650,
+        "end": 41210,
+        "text": "Boo,",
+        "emotion": "joy",
+        "definition": "To shout extended boos derisively.",
+        "example": "When he took the podium, the crowd booed."
+    },
+    {
+        "start": 41530,
+        "end": 42490,
+        "text": "it's",
+        "emotion": "joy",
+        "definition": "Definition not found.",
+        "example": "Example not found."
+    },
+    {
+        "start": 41530,
+        "end": 42490,
+        "text": "been",
+        "emotion": "joy",
+        "definition": "A flying insect, of the clade Anthophila within the hymenopteran superfamily Apoidea, known for its organised societies (though only a minority have them), for collecting pollen and (in some species) producing wax and honey.",
+        "example": "No example available."
+    },
+    {
+        "start": 41530,
+        "end": 42490,
+        "text": "fun.",
+        "emotion": "joy",
+        "definition": "To tease, kid, poke fun at, make fun of.",
+        "example": "Hey, don't get bent out of shape over it; I was just funning you."
+    },
+    {
+        "start": 45530,
+        "end": 47770,
+        "text": "Go",
+        "emotion": "joy",
+        "definition": "A turn at something, or in something (e.g. a game).",
+        "example": "It\u2019s your go."
+    },
+    {
+        "start": 45530,
+        "end": 47770,
+        "text": "ahead.",
+        "emotion": "joy",
+        "definition": "In the direction one is facing or moving.",
+        "example": "Just ahead you can see the cliffs."
+    },
+    {
+        "start": 45530,
+        "end": 47770,
+        "text": "Go",
+        "emotion": "joy",
+        "definition": "A turn at something, or in something (e.g. a game).",
+        "example": "It\u2019s your go."
+    },
+    {
+        "start": 45530,
+        "end": 47770,
+        "text": "grow",
+        "emotion": "joy",
+        "definition": "To become larger, to increase in magnitude.",
+        "example": "Children grow quickly."
+    },
+    {
+        "start": 45530,
+        "end": 47770,
+        "text": "up.",
+        "emotion": "joy",
+        "definition": "The direction opposed to the pull of gravity.",
+        "example": "Up is a good way to go."
+    },
+    {
+        "start": 72180,
+        "end": 73860,
+        "text": "Oh,",
+        "emotion": "joy",
+        "definition": "Expression of surprise.",
+        "example": "Oh! I didn't see you there."
+    },
+    {
+        "start": 72180,
+        "end": 73860,
+        "text": "look",
+        "emotion": "joy",
+        "definition": "Definition not found.",
+        "example": "Example not found."
+    },
+    {
+        "start": 72180,
+        "end": 73860,
+        "text": "at",
+        "emotion": "joy",
+        "definition": "To reply to or talk to someone, either online or face-to-face. (from the practice of targeting a message or reply to someone online by writing @name)",
+        "example": "Cars 2 is the most influential film of all time. Don't @ me."
+    },
+    {
+        "start": 72180,
+        "end": 73860,
+        "text": "that.",
+        "emotion": "joy",
+        "definition": "(degree) To a given extent or degree.",
+        "example": "\"The ribbon was that thin.\" \"I disagree, I say it was not that thin, it was thicker... or maybe thinner...\""
+    },
+    {
+        "start": 72180,
+        "end": 73860,
+        "text": "Yeah,",
+        "emotion": "joy",
+        "definition": "Expressing joy, celebration, glee, etc.",
+        "example": "Yeah! We did it!"
+    },
+    {
+        "start": 72180,
+        "end": 73860,
+        "text": "you",
+        "emotion": "joy",
+        "definition": "(object pronoun) The people spoken, or written to, as an object.",
+        "example": "Both of you should get ready now."
+    },
+    {
+        "start": 72180,
+        "end": 73860,
+        "text": "know.",
+        "emotion": "joy",
+        "definition": "To perceive the truth or factuality of; to be certain of or that.",
+        "example": "He knew something terrible was going to happen."
+    },
+    {
+        "start": 75460,
+        "end": 77060,
+        "text": "Oh,",
+        "emotion": "joy",
+        "definition": "Expression of surprise.",
+        "example": "Oh! I didn't see you there."
+    },
+    {
+        "start": 75460,
+        "end": 77060,
+        "text": "that's",
+        "emotion": "joy",
+        "definition": "Definition not found.",
+        "example": "Example not found."
+    },
+    {
+        "start": 75460,
+        "end": 77060,
+        "text": "cute.",
+        "emotion": "joy",
+        "definition": "Possessing physical features, behaviors, personality traits or other properties that are mainly attributed to infants and small or cuddly animals; e.g. fair, dainty, round, and soft physical features, disproportionately large eyes and head, playfulness, fragility, helplessness, curiosity or shyness, innocence, affectionate behavior.",
+        "example": "Our reaction to cute attributes is understood as the way nature ensures mammals care for their young."
+    },
+    {
+        "start": 75460,
+        "end": 77060,
+        "text": "Yep.",
+        "emotion": "joy",
+        "definition": "Yes.",
+        "example": "I'll take that as a yep, then."
+    },
+    {
+        "start": 81580,
+        "end": 83020,
+        "text": "Well,",
+        "emotion": "joy",
+        "definition": "In good health.",
+        "example": "I had been sick, but now I'm well."
+    },
+    {
+        "start": 81580,
+        "end": 83020,
+        "text": "that's",
+        "emotion": "joy",
+        "definition": "Definition not found.",
+        "example": "Example not found."
+    },
+    {
+        "start": 81580,
+        "end": 83020,
+        "text": "very",
+        "emotion": "joy",
+        "definition": "True, real, actual.",
+        "example": "He tried his very best."
+    },
+    {
+        "start": 81580,
+        "end": 83020,
+        "text": "nice.",
+        "emotion": "joy",
+        "definition": "Respectable; virtuous.",
+        "example": "What is a nice person like you doing in a place like this?"
+    },
+    {
+        "start": 84620,
+        "end": 85500,
+        "text": "Come",
+        "emotion": "joy",
+        "definition": "To move from further away to nearer to.",
+        "example": "She\u2019ll be coming \u2019round the mountain when she comes [...]"
+    },
+    {
+        "start": 84620,
+        "end": 85500,
+        "text": "here,",
+        "emotion": "joy",
+        "definition": "(abstract) This place; this location.",
+        "example": "An Alzheimer patient's here may in his mind be anywhere he called home in the time he presently re-lives."
+    },
+    {
+        "start": 84620,
+        "end": 85500,
+        "text": "you.",
+        "emotion": "joy",
+        "definition": "(object pronoun) The people spoken, or written to, as an object.",
+        "example": "Both of you should get ready now."
+    },
+    {
+        "start": 94220,
+        "end": 96380,
+        "text": "Oh,",
+        "emotion": "joy",
+        "definition": "Expression of surprise.",
+        "example": "Oh! I didn't see you there."
+    },
+    {
+        "start": 94220,
+        "end": 96380,
+        "text": "he's",
+        "emotion": "joy",
+        "definition": "Definition not found.",
+        "example": "Example not found."
+    },
+    {
+        "start": 94220,
+        "end": 96380,
+        "text": "a",
+        "emotion": "joy",
+        "definition": "The name of the Latin script letter A/a.",
+        "example": "No example available."
+    },
+    {
+        "start": 94220,
+        "end": 96380,
+        "text": "happy",
+        "emotion": "joy",
+        "definition": "Having a feeling arising from a consciousness of well-being or of enjoyment; enjoying good of any kind, such as comfort, peace, or tranquillity; blissful, contented, joyous.",
+        "example": "Music makes me feel happy."
+    },
+    {
+        "start": 94220,
+        "end": 96380,
+        "text": "bear.",
+        "emotion": "joy",
+        "definition": "Something difficult or tiresome; a burden or chore.",
+        "example": "That window can be a bear to open."
+    },
+    {
+        "start": 98380,
+        "end": 99580,
+        "text": "Yeah.",
+        "emotion": "joy",
+        "definition": "Expressing joy, celebration, glee, etc.",
+        "example": "Yeah! We did it!"
+    },
+    {
+        "start": 98380,
+        "end": 99580,
+        "text": "There's",
+        "emotion": "joy",
+        "definition": "Definition not found.",
+        "example": "Example not found."
+    },
+    {
+        "start": 98380,
+        "end": 99580,
+        "text": "this.",
+        "emotion": "joy",
+        "definition": "To the degree or extent indicated.",
+        "example": "Do we need this many recommendations?"
+    },
+    {
+        "start": 102540,
+        "end": 104620,
+        "text": "Nothing's",
+        "emotion": "fear",
+        "definition": "Definition not found.",
+        "example": "Example not found."
+    },
+    {
+        "start": 102540,
+        "end": 104620,
+        "text": "coming",
+        "emotion": "fear",
+        "definition": "To move from further away to nearer to.",
+        "example": "She\u2019ll be coming \u2019round the mountain when she comes [...]"
+    },
+    {
+        "start": 102540,
+        "end": 104620,
+        "text": "out",
+        "emotion": "fear",
+        "definition": "A means of exit, escape, reprieve, etc.",
+        "example": "They wrote the law to give those organizations an out."
+    },
+    {
+        "start": 102540,
+        "end": 104620,
+        "text": "of",
+        "emotion": "fear",
+        "definition": "Expressing distance or motion.",
+        "example": "No example available."
+    },
+    {
+        "start": 102540,
+        "end": 104620,
+        "text": "your",
+        "emotion": "fear",
+        "definition": "Definition not found.",
+        "example": "Example not found."
+    },
+    {
+        "start": 102540,
+        "end": 104620,
+        "text": "closet",
+        "emotion": "fear",
+        "definition": "To shut away for private discussion.",
+        "example": "The ambassador has been closeted with the prime minister all afternoon. We're all worried what will be announced when they exit."
+    },
+    {
+        "start": 102540,
+        "end": 104620,
+        "text": "to",
+        "emotion": "fear",
+        "definition": "Toward a closed, touching or engaging position.",
+        "example": "Please push the door to."
+    },
+    {
+        "start": 102540,
+        "end": 104620,
+        "text": "scare",
+        "emotion": "fear",
+        "definition": "A minor fright.",
+        "example": "Johnny had a bad scare last night."
+    },
+    {
+        "start": 104540,
+        "end": 107450,
+        "text": "you",
+        "emotion": "joy",
+        "definition": "(object pronoun) The people spoken, or written to, as an object.",
+        "example": "Both of you should get ready now."
+    },
+    {
+        "start": 104540,
+        "end": 107450,
+        "text": "anymore,",
+        "emotion": "joy",
+        "definition": "(in negative or interrogative constructions) From a given time onwards; longer, again.",
+        "example": "They don't make repairable radios any more."
+    },
+    {
+        "start": 104540,
+        "end": 107450,
+        "text": "right?",
+        "emotion": "joy",
+        "definition": "Straight, not bent.",
+        "example": "a right line"
+    },
+    {
+        "start": 104540,
+        "end": 107450,
+        "text": "Yeah.",
+        "emotion": "joy",
+        "definition": "Expressing joy, celebration, glee, etc.",
+        "example": "Yeah! We did it!"
+    },
+    {
+        "start": 109930,
+        "end": 111050,
+        "text": "Goodbye,",
+        "emotion": "joy",
+        "definition": "An utterance of goodbye, the wishing of farewell to someone.",
+        "example": "They made their good-byes."
+    },
+    {
+        "start": 109930,
+        "end": 111050,
+        "text": "Boo.",
+        "emotion": "joy",
+        "definition": "To shout extended boos derisively.",
+        "example": "When he took the podium, the crowd booed."
+    },
+    {
+        "start": 112570,
+        "end": 115690,
+        "text": "Kitty.",
+        "emotion": "anger",
+        "definition": "(sometimes capitalized) A pet name for a cat.",
+        "example": "Aw, look at the kitty!"
+    },
+    {
+        "start": 112570,
+        "end": 115690,
+        "text": "Kitty",
+        "emotion": "anger",
+        "definition": "(sometimes capitalized) A pet name for a cat.",
+        "example": "Aw, look at the kitty!"
+    },
+    {
+        "start": 115610,
+        "end": 116330,
+        "text": "has",
+        "emotion": "fear",
+        "definition": "To possess, own.",
+        "example": "I have a house and a car."
+    },
+    {
+        "start": 115610,
+        "end": 116330,
+        "text": "to",
+        "emotion": "fear",
+        "definition": "Toward a closed, touching or engaging position.",
+        "example": "Please push the door to."
+    },
+    {
+        "start": 115610,
+        "end": 116330,
+        "text": "go",
+        "emotion": "fear",
+        "definition": "A turn at something, or in something (e.g. a game).",
+        "example": "It\u2019s your go."
+    },
+    {
+        "start": 131700,
+        "end": 132020,
+        "text": "sa.",
+        "emotion": "anger",
+        "definition": "Definition not found.",
+        "example": "Example not found."
+    },
+    {
+        "start": 161870,
+        "end": 162510,
+        "text": "Kitty.",
+        "emotion": "anger",
+        "definition": "(sometimes capitalized) A pet name for a cat.",
+        "example": "Aw, look at the kitty!"
+    },
+    {
+        "start": 181870,
+        "end": 184600,
+        "text": "Mike.",
+        "emotion": "anger",
+        "definition": "A microphone.",
+        "example": "No example available."
+    },
+    {
+        "start": 181870,
+        "end": 184600,
+        "text": "Is",
+        "emotion": "anger",
+        "definition": "Definition not found.",
+        "example": "Example not found."
+    },
+    {
+        "start": 181870,
+        "end": 184600,
+        "text": "that.",
+        "emotion": "anger",
+        "definition": "(degree) To a given extent or degree.",
+        "example": "\"The ribbon was that thin.\" \"I disagree, I say it was not that thin, it was thicker... or maybe thinner...\""
+    },
+    {
+        "start": 184920,
+        "end": 187440,
+        "text": "Sorry",
+        "emotion": "sadness",
+        "definition": "(of a person) Regretful for an action; grieved or saddened, especially by the loss of something or someone.",
+        "example": "I am sorry I stepped on your toes. It was an accident."
+    },
+    {
+        "start": 184920,
+        "end": 187440,
+        "text": "it",
+        "emotion": "sadness",
+        "definition": "The person who chases and tries to catch the other players in the playground game of tag.",
+        "example": "In the next game, Adam and Tom will be it\u2026"
+    },
+    {
+        "start": 184920,
+        "end": 187440,
+        "text": "took",
+        "emotion": "sadness",
+        "definition": "To get into one's hands, possession or control, with or without force.",
+        "example": "I'll take that plate off the table."
+    },
+    {
+        "start": 184920,
+        "end": 187440,
+        "text": "so",
+        "emotion": "sadness",
+        "definition": "True, accurate.",
+        "example": "That is so.\u2003 You are responsible for this, is that not so?"
+    },
+    {
+        "start": 184920,
+        "end": 187440,
+        "text": "long,",
+        "emotion": "sadness",
+        "definition": "An entity with a long position in an asset.",
+        "example": "Every uptick made the longs cheer."
+    },
+    {
+        "start": 184920,
+        "end": 187440,
+        "text": "pal.",
+        "emotion": "sadness",
+        "definition": "A friend, buddy, mate, cobber; someone to hang around with.",
+        "example": "Little Timmy's out playing with his pals."
+    },
+    {
+        "start": 184920,
+        "end": 187440,
+        "text": "It",
+        "emotion": "sadness",
+        "definition": "The person who chases and tries to catch the other players in the playground game of tag.",
+        "example": "In the next game, Adam and Tom will be it\u2026"
+    },
+    {
+        "start": 184920,
+        "end": 187440,
+        "text": "was",
+        "emotion": "sadness",
+        "definition": "Definition not found.",
+        "example": "Example not found."
+    },
+    {
+        "start": 184920,
+        "end": 187440,
+        "text": "a",
+        "emotion": "sadness",
+        "definition": "The name of the Latin script letter A/a.",
+        "example": "No example available."
+    },
+    {
+        "start": 184920,
+        "end": 187440,
+        "text": "lot",
+        "emotion": "sadness",
+        "definition": "A large quantity or number; a great deal.",
+        "example": "lots of people think so"
+    },
+    {
+        "start": 184920,
+        "end": 187440,
+        "text": "of",
+        "emotion": "sadness",
+        "definition": "Expressing distance or motion.",
+        "example": "No example available."
+    },
+    {
+        "start": 187360,
+        "end": 190400,
+        "text": "wood",
+        "emotion": "anger",
+        "definition": "The substance making up the central part of the trunk and branches of a tree. Used as a material for construction, to manufacture various items, etc. or as fuel.",
+        "example": "There was lots of wood on the beach."
+    },
+    {
+        "start": 187360,
+        "end": 190400,
+        "text": "to",
+        "emotion": "anger",
+        "definition": "Toward a closed, touching or engaging position.",
+        "example": "Please push the door to."
+    },
+    {
+        "start": 187360,
+        "end": 190400,
+        "text": "go",
+        "emotion": "anger",
+        "definition": "A turn at something, or in something (e.g. a game).",
+        "example": "It\u2019s your go."
+    },
+    {
+        "start": 187360,
+        "end": 190400,
+        "text": "through.",
+        "emotion": "anger",
+        "definition": "Passing from one side of something to the other.",
+        "example": "Interstate highways form a nationwide system of through roads."
+    },
+    {
+        "start": 187360,
+        "end": 190400,
+        "text": "You",
+        "emotion": "anger",
+        "definition": "(object pronoun) The people spoken, or written to, as an object.",
+        "example": "Both of you should get ready now."
+    },
+    {
+        "start": 187360,
+        "end": 190400,
+        "text": "know,",
+        "emotion": "anger",
+        "definition": "To perceive the truth or factuality of; to be certain of or that.",
+        "example": "He knew something terrible was going to happen."
+    },
+    {
+        "start": 187360,
+        "end": 190400,
+        "text": "it",
+        "emotion": "anger",
+        "definition": "The person who chases and tries to catch the other players in the playground game of tag.",
+        "example": "In the next game, Adam and Tom will be it\u2026"
+    },
+    {
+        "start": 187360,
+        "end": 190400,
+        "text": "only",
+        "emotion": "anger",
+        "definition": "Alone in a category.",
+        "example": "He is the only doctor for miles."
+    },
+    {
+        "start": 190320,
+        "end": 191880,
+        "text": "works",
+        "emotion": "joy",
+        "definition": "Sustained effort to achieve a goal or result, especially overcoming obstacles.",
+        "example": "We don't have much time. Let's get to work piling up those sandbags."
+    },
+    {
+        "start": 190320,
+        "end": 191880,
+        "text": "if",
+        "emotion": "joy",
+        "definition": "Supposing that, assuming that, in the circumstances that; used to introduce a condition or choice.",
+        "example": "If it rains, I shall get wet."
+    },
+    {
+        "start": 190320,
+        "end": 191880,
+        "text": "you",
+        "emotion": "joy",
+        "definition": "(object pronoun) The people spoken, or written to, as an object.",
+        "example": "Both of you should get ready now."
+    },
+    {
+        "start": 190320,
+        "end": 191880,
+        "text": "have",
+        "emotion": "joy",
+        "definition": "To possess, own.",
+        "example": "I have a house and a car."
+    },
+    {
+        "start": 190320,
+        "end": 191880,
+        "text": "every",
+        "emotion": "joy",
+        "definition": "Definition not found.",
+        "example": "Example not found."
+    },
+    {
+        "start": 190320,
+        "end": 191880,
+        "text": "piece.",
+        "emotion": "joy",
+        "definition": "A part of a larger whole, usually in such a form that it is able to be separated from other parts.",
+        "example": "I\u2019d like another piece of pie."
+    },
+    {
+        "start": 220450,
+        "end": 223090,
+        "text": "Who?",
+        "emotion": "anger",
+        "definition": "(interrogative) What person or people; which person or people; asks for the identity of someone. (used in a direct or indirect question)",
+        "example": "I don't know who it is. (indirect question)"
+    },
+    {
+        "start": 220450,
+        "end": 223090,
+        "text": "Kitty.",
+        "emotion": "anger",
+        "definition": "(sometimes capitalized) A pet name for a cat.",
+        "example": "Aw, look at the kitty!"
+    }
+]
