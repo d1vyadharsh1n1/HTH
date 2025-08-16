@@ -20,6 +20,7 @@ export default function Processing() {
     malayalam: "/videos/malayalam.mp4",
     tamil: "/videos/MonsterInc_Tamil.mp4" // Will be added later
   });
+  const [isGeneratingSubtitles, setIsGeneratingSubtitles] = useState(false);
 
   // Load language transcripts
   useEffect(() => {
@@ -124,6 +125,30 @@ export default function Processing() {
 
     return () => clearInterval(interval);
   }, [file]);
+
+  const handleGenerateEmotionSubtitles = async () => {
+    if (!file || isGeneratingSubtitles) return;
+    setIsGeneratingSubtitles(true);
+    try {
+      const formData = new FormData();
+      formData.append("video", file);
+      const res = await fetch("http://localhost:5000/process-subtitles", {
+        method: "POST",
+        body: formData,
+      });
+      const data = await res.json();
+      if (!res.ok || data.status !== "success") {
+        throw new Error(data.message || "Failed to generate subtitles");
+      }
+      const urlToOpen = data.absolute_page_url || `http://localhost:5000${data.page_url}`;
+      window.open(urlToOpen, "_blank");
+    } catch (e) {
+      console.error(e);
+      alert("Failed to generate emotion subtitles. Please try again.");
+    } finally {
+      setIsGeneratingSubtitles(false);
+    }
+  };
 
   if (!file) {
     return (
@@ -288,12 +313,10 @@ export default function Processing() {
           {/* 🎭 Generate Emotion Subtitles Button */}
           <button
             className="btn btn-warning mt-4"
-            onClick={() => {
-              // Open MonsterDubs video with interactive subtitles
-              window.open("http://localhost:5000/subtitles/", "_blank");
-            }}
+            onClick={handleGenerateEmotionSubtitles}
+            disabled={isGeneratingSubtitles}
           >
-            🎭 Generate Emotion Subtitles
+            {isGeneratingSubtitles ? "Generating..." : "🎭 Generate Emotion Subtitles"}
           </button>
 
           {/* Upload Another Video */}
