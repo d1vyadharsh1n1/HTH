@@ -1,23 +1,34 @@
 from flask import Flask, request, jsonify, send_from_directory
 from flask_cors import CORS
 from werkzeug.utils import secure_filename
-import os, time, ffmpeg, requests, subprocess, sys
+import os, time, ffmpeg, requests, subprocess, sys, uuid, shutil
 
 app = Flask(__name__)
 CORS(app)  # allow cross-origin requests from React
-app.config['UPLOAD_FOLDER'] = 'uploads'
-os.makedirs(app.config['UPLOAD_FOLDER'], exist_ok=True)
+
+# Base directories
+BASE_DIR = os.path.dirname(os.path.abspath(__file__))
+SUBTITLES_DIR = os.path.join(BASE_DIR, 'subtitles')
+UPLOADS_DIR = os.path.join(BASE_DIR, 'uploads')
+GENERATED_DIR = os.path.join(BASE_DIR, 'generated')
+
+# Ensure folders exist
+os.makedirs(UPLOADS_DIR, exist_ok=True)
+os.makedirs(GENERATED_DIR, exist_ok=True)
+
+# Config
+app.config['UPLOAD_FOLDER'] = UPLOADS_DIR
 
 ASSEMBLYAI_API_KEY = "2efd94d4c0594bcab804953a0e780ea8"
 ASSEMBLYAI_BASE_URL = "https://api.assemblyai.com"
 
 def extract_audio(video_path, audio_path):
-    ffmpeg_path = r"C:\ffmpeg\ffmpeg-7.1.1-essentials_build\bin\ffmpeg.exe"  # <-- put your actual path here
+    # Use system ffmpeg via ffmpeg-python
     (
         ffmpeg
         .input(video_path)
         .output(audio_path, acodec='libmp3lame')
-        .run(cmd=ffmpeg_path, overwrite_output=True, quiet=True)
+        .run(overwrite_output=True, quiet=True)
     )
 
 def transcribe(audio_path):
@@ -64,21 +75,71 @@ def upload_video():
 
     return jsonify({"transcript": transcript_text})
 
-'''@app.route("/generate_subtitles", methods=["GET"])
-def generate_subtitles():
+# Dynamic emotion subtitles generation for any uploaded video
+@app.route("/process-subtitles", methods=["POST"])
+def process_subtitles():
+    if "video" not in request.files:
+        return jsonify({"error": "No video uploaded"}), 400
+
+    # Create a unique job folder
+    job_id = uuid.uuid4().hex
+    job_dir = os.path.join(GENERATED_DIR, job_id)
+    os.makedirs(job_dir, exist_ok=True)
+
+    # Save original upload
+    video_file = request.files["video"]
+    original_name = secure_filename(video_file.filename or f"upload_{job_id}.mp4")
+    original_path = os.path.join(job_dir, original_name)
+    video_file.save(original_path)
+
+    # The subtitles script expects a file named 'MonsterInc.mp4' in its CWD
+    # Copy the uploaded file to that expected name inside the job folder
+    script_input_path = os.path.join(job_dir, "MonsterInc.mp4")
     try:
-        script_path = os.path.join("subtitles", "burn_word_subs.py")
-        subprocess.run([sys.executable, script_path], check=True)
-        return jsonify({"status": "success", "message": "Emotion subtitles generated successfully"})
+        shutil.copyfile(original_path, script_input_path)
+    except Exception:
+        # Fallback to move if copying across devices fails
+        shutil.copy(original_path, script_input_path)
+
+    # Run the subtitles generator script in the job directory
+    script_path = os.path.join(SUBTITLES_DIR, 'burn_word_subs.py')
+    try:
+        subprocess.run([sys.executable, script_path], cwd=job_dir, check=True)
     except subprocess.CalledProcessError as e:
-        return jsonify({"status": "error", "message": f"Script failed: {str(e)}"})
-    except Exception as e:
-        return jsonify({"status": "error", "message": str(e)})'''
+        return jsonify({"status": "error", "message": f"Subtitle generation failed: {str(e)}"}), 500
+
+    # Expected outputs
+    output_video = os.path.join(job_dir, "MonsterDubs.mp4")
+    output_json = os.path.join(job_dir, "interactive_subs.json")
+
+    if not os.path.exists(output_video) or not os.path.exists(output_json):
+        return jsonify({"status": "error", "message": "Generation did not produce expected outputs."}), 500
+
+    # Build URLs for the generated assets and the interactive page
+    host = request.host_url.rstrip('/')
+    video_url = f"/generated/{job_id}/MonsterDubs.mp4"
+    json_url = f"/generated/{job_id}/interactive_subs.json"
+    page_url = f"/subtitles/?video={video_url}&json={json_url}"
+
+    return jsonify({
+        "status": "success",
+        "job_id": job_id,
+        "video_url": video_url,
+        "json_url": json_url,
+        "page_url": page_url,
+        "absolute_page_url": f"{host}{page_url.lstrip('/')}"
+    })
+
+@app.route("/generated/<job_id>/<path:filename>")
+def serve_generated(job_id, filename):
+    job_dir = os.path.join(GENERATED_DIR, secure_filename(job_id))
+    return send_from_directory(job_dir, filename)
 
 @app.route("/generate_subtitles")
 def get_dubbed_video():
-    video_folder = os.path.join("backend", "subtitles")
-    video_filename = "MonsterDubs.mp4"  # change to your actual file name
+    # Legacy endpoint serving a static demo file
+    video_folder = os.path.join(BASE_DIR, "subtitles")
+    video_filename = "MonsterDubs.mp4"
     return send_from_directory(video_folder, video_filename)
 
 @app.route("/subtitles/")
@@ -87,10 +148,10 @@ def serve_subtitles(filename=None):
     """Serve files from the subtitles folder"""
     if filename is None:
         # Serve index.html for the root subtitles path
-        return send_from_directory("subtitles", "index.html")
+        return send_from_directory(SUBTITLES_DIR, "index.html")
     else:
         # Serve specific files from subtitles folder
-        return send_from_directory("subtitles", filename)
+        return send_from_directory(SUBTITLES_DIR, filename)
 
 if __name__ == "__main__":
     app.run(debug=True)

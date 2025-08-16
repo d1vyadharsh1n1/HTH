@@ -19,9 +19,23 @@ document.addEventListener("DOMContentLoaded", () => {
         'neutral': '😐'
     };
 
+    // Read dynamic sources from query params
+    const params = new URLSearchParams(window.location.search);
+    const videoParam = params.get('video');
+    const jsonParam = params.get('json');
+
+    if (videoParam) {
+        // Allow absolute or relative URLs
+        videoPlayer.src = videoParam;
+    }
+
     // --- Fetch and load subtitle data ---
-    fetch("interactive_subs.json")
-        .then(response => response.json())
+    const jsonUrl = jsonParam || "interactive_subs.json";
+    fetch(jsonUrl)
+        .then(response => {
+            if (!response.ok) throw new Error(`Failed to load ${jsonUrl}`);
+            return response.json();
+        })
         .then(data => {
             subtitles = data;
         })
